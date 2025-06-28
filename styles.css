@@ -13,13 +13,13 @@ body {
 }
 
 .circulo {
-  width: 760px; /* Ajuste o tamanho do círculo conforme necessário */
-  height: 720px; /* Ajuste o tamanho do círculo conforme necessário */
+  width: 730px; /* Ajuste o tamanho do círculo conforme necessário */
+  height: 700px; /* Ajuste o tamanho do círculo conforme necessário */
   background: #017143; /* Cor do círculo */
   border-radius: 60%; /* Faz o círculo */
   position: fixed; /* Fixa o círculo na tela */
   bottom: -100px; /* Distância do fundo */
-  right: -250px; /* Distância da direita */
+  right: -160px; /* Distância da direita */
   overflow: hidden; /* Para esconder partes da imagem que saem do círculo */
   display: flex;
   justify-content: center;
@@ -38,12 +38,12 @@ body {
 }
 
 .caixa_texto {
-  width: 700px; /* Largura da caixa de texto */
+  width: 550px; /* Largura da caixa de texto */
 }
 
 h1 {
   color: #333333; /* Cor do título */
-  font-size: 50px; /* Tamanho do título */
+  font-size: 60px; /* Tamanho do título */
   font-weight: 600; /* Peso da fonte */
 }
 
@@ -79,20 +79,20 @@ button:hover {
 .Starbucks {
   width: 400px; /* Ajuste o tamanho da imagem Starbucks se necessário */
   position: fixed;
-  right: 5px;
-  margin-top: -96px; /* Espaço entre o conteúdo e o menu */
+  right: 55px;
+  margin-top: 60px; /* Espaço entre o conteúdo e o menu */
 }
 
 .menu {
   display: flex; /* Para alinhar os botões do menu */
   justify-content: center; /* Centraliza os botões do menu */
-  margin-top: 70px; /* Espaço entre o conteúdo e o menu */
+  margin-top: 65px; /* Espaço entre o conteúdo e o menu */
   position: fixed;
-  right: 600px;
+  right: 750px;
 }
 
 .botaomenu {
-  width: 50px; /* Largura dos botões do menu */
+  width: 80px; /* Largura dos botões do menu */
   cursor: pointer; /* Muda o cursor ao passar o mouse */
   margin: 10px; /* Margem entre os botões do menu */
   transition: transform 0.3s ease; /* Transição suave para o efeito de hover */
@@ -109,7 +109,7 @@ button:hover {
   object-fit: cover; /* Cobre o círculo evitando distorção */
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   body {
     padding-top: 10px;
     padding-left: 10px;
@@ -118,7 +118,7 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .botaomenu {
     width: 48px; /* Largura dos botões do menu */
     cursor: pointer; /* Muda o cursor ao passar o mouse */
@@ -127,9 +127,9 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .circulo {
-    width: 800px; /* Ajuste o tamanho do círculo conforme necessário */
+    width: 750px; /* Ajuste o tamanho do círculo conforme necessário */
     height: 720px; /* Ajuste o tamanho do círculo conforme necessário */
     background: #017143; /* Cor do círculo */
     border-radius: 65%; /* Faz o círculo */
@@ -144,7 +144,7 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .logo {
     width: 80px; /* Ajuste o tamanho do logo se necessário */
     right: 40px; /* Ajuste a posição do logo */
@@ -152,15 +152,15 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .caixa_texto {
-    width: 600px; /* Largura da caixa de texto */
-    right: 200px; /* Ajuste a posição da caixa de texto */
+    width: 700px; /* comprimento da caixa de texto */
+    right: -500px; /* Ajuste a posição da caixa de texto */
     margin-top: -20px; /* Espaço entre o logo e a caixa de texto */
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   h1 {
     color: #333333; /* Cor do título */
     font-size: 35px; /* Tamanho do título */
@@ -168,21 +168,21 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   p {
-    font-size: 10px; /* Tamanho do texto */
+    font-size: 8px; /* Tamanho do texto */
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   span {
     color: #017143; /* Cor do texto do span */
-    font-size: 50px; /* Tamanho da fonte do span */
+    font-size: 40px; /* Tamanho da fonte do span */
     font-weight: 900; /* Peso da fonte do span */
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   button {
     background-color: #017143; /* Cor de fundo do botão */
     color: #ffffff; /* Cor do texto do botão */
@@ -194,15 +194,15 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .conteudo {
     display: flex;
     justify-content: space-between; /* Mantém os elementos do conteúdo separados */
-    margin-top: 50px; /* Espaço entre o logo e o conteúdo */
+    margin-top: 15px; /* Espaço entre o logo e o conteúdo */
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .caixa_imagem {
     width: 600px; /* Largura da caixa de imagem */
     display: flex;
@@ -210,22 +210,21 @@ button:hover {
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .Starbucks {
     width: 280px; /* Ajuste o tamanho da imagem Starbucks se necessário */
     position: fixed;
-    right: 40px;
-    margin-top: 358px; /* Espaço entre o conteúdo e o menu */
+    right: 10px;
+    margin-top: 390px; /* Espaço entre o conteúdo e o menu */
   }
 }
 
-@media (max-width: 758px) {
+@media screen and (min-width: 340px) and (max-width: 1394px) {
   .menu {
     display: flex; /* Para alinhar os botões do menu */
-    margin-top: -500px; /* Espaço entre o conteúdo e o menu */
+    margin-top: -480px; /* Espaço entre o conteúdo e o menu */
     justify-content: center; /* Centraliza os botões do menu */
     position: fixed;
     right: 0px;
   }
 }
-
